@@ -1,0 +1,485 @@
+
+/*渐变页面设置*/
+#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
+    background: var(--light_bg_color)
+}
+
+#aside-content .card-widget {
+    /*background: var(--light_bg_color)*/
+    background: var(--light_bg_color)
+} 
+
+
+
+#web_bg {
+    /*background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5))
+    *//* background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%) */
+    /*background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)*/
+    /*background: linear-gradient(-20deg, #e9defa3a 0%, #fbfcdb 100%)*/
+    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
+
+}
+
+/* 文章页背景 */
+.layout>div:first-child:not(.recent-posts) {
+    background: var(--light_bg_color)
+    /*rgba(255,255,255,0.3);*/
+}
+
+/*页脚渐变设置*/
+#footer {
+    background: rgba(255,255,255,.15);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(255, 255, 255, .15)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color)
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color)
+}
+
+/* 滚动条美化*/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgba(73, 177, 245, 0.2);
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #49b1f5 !important;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.4) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.4) 75%,
+      transparent 75%,
+      transparent
+    ) !important;
+    border-radius: 2em;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+  
+  ::-moz-selection {
+    color: #fff;
+    background-color: #49b1f5;
+  }
+  
+  [data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background-color: #1f1f1f !important;
+  }
+
+/*copyright*/
+[data-theme="dark"]
+  #post .post-copyright {
+    background-color: rgb(7 8 10);
+    text-shadow: #bfbeb8 1px 0 4px;
+  }
+[data-theme="dark"]
+  #post .post-copyright {
+    border: 1px solid rgb(19 18 18 / 35%);
+  }
+[data-theme="dark"]
+  .post-copyright-info {
+    color: #e0e0e4;
+  }
+#post .post-copyright__title{
+    font-size:22px;
+}
+#post .post-copyright__notice{
+    font-size:15px;
+}
+/*end*/
+
+/* SAOUI字体精简包，仅73KB */
+@font-face{
+    font-family: 'SAOUI';
+    src: url('https://unpkg.zhimg.com/akilar-candyassets/fonts/SAOUI.ttf');
+    font-display: swap;
+  }
+  /* 应用于除了作者卡片以为的所有侧栏卡片 */
+  .card-widget:not(.card-info) {
+    overflow: visible !important;
+    margin-bottom: 45px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 0px !important;
+    font-family: 'SAOUI';
+    color: rgba(60,60,61,0.7);
+    font-weight: bold;
+  }
+  /* 修复一下对侧栏电子钟的覆盖 */
+  .card-widget.card-clock {
+    overflow: hidden !important;
+    border-radius: 8px !important;
+  }
+  /* 定义标题栏的定位方式为绝对定位 */
+  .item-headline {
+    font-family: 'SAOUI';
+    color: rgba(60,60,61,0.7);
+    font-weight: bold;
+    position: absolute;
+    z-index: 4;
+    height: 27px;
+    width: 65%;
+    top: -27px;
+    left: 7px;
+  }
+  /* 标题栏下各元素的层级，保证它们能显示在伪类之上 */
+  .item-headline i {
+    position: relative;
+    top: 0px;
+    margin-left: 5%;
+    z-index: 2;
+  }
+  .item-headline span {
+    position: relative;
+    top: 0px;
+    z-index: 2;
+  }
+  .item-headline a {
+    position: relative;
+    top: 0px;
+    z-index: 2;
+  }
+  /* 梯形伪类 */
+  .item-headline:after {
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: 0;
+    bottom: 0;
+    left: -3px;
+    z-index: 1;
+    background: var(--light_bg_color);
+    border: 1px solid rgba(255,255,255,0.9);
+    border-bottom: 0 solid #fff;
+    /* 关键形变 */
+    transform: perspective(20px) rotateX(3deg);
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+  }
+  /* 下划线伪类 */
+  .item-headline:before {
+    display: block;
+    width: 140%;
+    margin-top: 2px;
+    height: 2px;
+    content: '';
+    background: rgba(160,159,160,0.9);
+    border-radius: 5px;
+    top: 40px;
+    left: 0;
+    position: relative;
+  }
+  /* 针对手机样式的偏移量调整 */
+  @media screen and (max-width: 800px) {
+    .item-headline {
+      left: 8px;
+    }
+  }
+  /* 夜间模式色彩适配，此处仅代表糖果屋夜间模式配色 */
+  [data-theme="dark"] .card-widget:not(.card-info) {
+    color: rgba(255,255,255,0.7) !important;
+  }
+  [data-theme="dark"] .item-headline {
+    color: rgba(255,255,255,0.7) !important;
+  }
+  [data-theme="dark"] .item-headline:after {
+    background: var(--light_bg_color);
+    border: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 0 solid rgba(0,0,0,0.5);
+  }
+  [data-theme="dark"] .item-headline:before {
+    background: var(--light_bg_color);
+  }
+
+/*github-badge*/
+.github-badge {
+    display:inline-block;
+    border-radius:4px;
+    text-shadow:none;
+    font-size:13px;
+    color:#fff;
+    line-height:15px;
+    margin-bottom:5px;
+}
+.github-badge a{
+    display: inline-block;
+    margin: 0 1px 5px;
+}
+.github-badge .badge-subject {
+    display:inline-block;
+    background-color:#4D4D4D;
+    padding:4px 4px 4px 6px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.github-badge .badge-value {
+    display:inline-block;
+    padding:4px 6px 4px 4px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.github-badge .bg-brightgreen {
+    background-color:#4DC820 !important;
+}
+.github-badge .bg-orange {
+    background-color:#FFA500 !important;
+}
+.github-badge .bg-yellow {
+    background-color:#D8B024 !important;
+}
+.github-badge .bg-blueviolet {
+    background-color:#8833D7 !important;
+}
+.github-badge .bg-pink {
+    background-color:#F26BAE !important;
+}
+.github-badge .bg-red {
+    background-color:#e05d44 !important;
+}
+.github-badge .bg-blue {
+    background-color:#007EC6 !important;
+}
+.github-badge .bg-lightgrey {
+    background-color:#9F9F9F !important;
+}
+.github-badge .bg-grey, .github-badge .bg-gray {
+    background-color:#555 !important;
+}
+.github-badge .bg-lightgrey, .github-badge .bg-lightgray {
+    background-color:#9f9f9f !important;
+}
+
+/* 自定义twikoo评论输入框高度 */
+.tk-input[data-v-619b4c52] .el-textarea__inner {
+    height: 130px !important;
+  }
+  /* 输入评论时自动隐藏输入框背景图片 */
+  .tk-input[data-v-619b4c52] .el-textarea__inner:focus {
+    background-image: none !important;
+  }
+  /* 调整楼中楼样式 ，整体左移，贴合气泡化效果 */
+  .tk-replies {
+    left: -70px;
+    width: calc(100% + 70px);
+  }
+  /* 头像宽度调整 rem单位与全局字体大小挂钩，需配合自己情况调整大小以保证头像显示完整*/
+  .tk-replies .tk-avatar {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+  .tk-replies .tk-avatar img {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+  /* 回复框左移，避免窄屏时出框 */
+  .tk-comments-container .tk-submit {
+    position: relative;
+    left: -70px;
+  }
+  /* 评论块气泡化修改 */
+  .tk-content {
+    background: #00a6ff; /*默认模式访客气泡配色*/
+    padding: 10px;
+    color: #fff; /*默认模式访客气泡字体配色*/
+    border-radius: 10px;
+    font-size: 16px !important;
+    width: fit-content;
+    max-width: 100%;
+    position: relative !important;
+    overflow: visible !important;
+    max-height: none !important;
+  }
+  /* 修复图片出框 */
+  .tk-content img {
+    max-width: 100% !important;
+  }
+  /* 修复过长文本出框 */
+  .tk-content pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .tk-content a {
+    color: #eeecaa; /*默认模式超链接配色*/
+  }
+  .tk-content::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 20px;
+    left: -13px;
+    border-top: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid #00a6ff; /*默认模式访客气泡小三角配色*/
+    border-left: 0px solid transparent;
+  }
+  .tk-master .tk-content {
+    background: #ff8080; /*默认模式博主气泡配色*/
+    color: #fff; /*默认模式博主气泡字体配色*/
+    width: fit-content;
+    max-width: 100%;
+  }
+  .tk-master .tk-content a {
+    color: #eeecaa;
+  }
+  .tk-master .tk-content::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 20px;
+    left: -13px;
+    border-top: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid #ff8080; /*默认模式博主气泡小三角配色*/
+    border-left: 0px solid transparent;
+  }
+  .tk-row[data-v-d82ce9a0] {
+    max-width: 100%;
+    width: fit-content;
+  }
+  .tk-avatar {
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  /* 夜间模式配色，具体比照上方默认模式class */
+  [data-theme="dark"] .tk-content {
+    background: #000;
+    color: #fff;
+  }
+  [data-theme="dark"] .tk-content a {
+    color: #dfa036;
+  }
+  [data-theme="dark"] .tk-content::before {
+    border-right: 15px solid #000;
+  }
+  [data-theme="dark"] .tk-master .tk-content {
+    background: #000;
+    color: #fff;
+  }
+  [data-theme="dark"] .tk-master .tk-content a {
+    color: #dfa036;
+  }
+  [data-theme="dark"] .tk-master .tk-content::before {
+    border-top: 2px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 15px solid #000;
+    border-left: 0px solid transparent;
+  }
+  /* 自适应内容 */
+  @media screen and (min-width: 1024px) {
+    /* 设置宽度上限，避免挤压博主头像 */
+    .tk-content {
+      max-width: 75%;
+      width: fit-content;
+    }
+    .tk-master .tk-content {
+      width: 75%;
+    }
+    .tk-master .tk-content::before {
+      left: 100%;
+      border-left: 15px solid #ff8080;
+      border-right: 0px solid transparent;
+    }
+    .tk-master .tk-avatar {
+      position: relative;
+      left: calc(75% + 70px);
+    }
+    .tk-master .tk-row[data-v-d82ce9a0] {
+      position: relative;
+      top: 0px;
+      left: calc(75% - 230px);
+    }
+    [data-theme="dark"] .tk-master .tk-content::before {
+      border-left: 15px solid #000;
+      border-right: 0px solid transparent;
+    }
+  }
+  /* 设备名称常态隐藏，悬停评论时显示 */
+  .tk-extras {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+  }
+  .tk-content:hover + .tk-extras {
+    -webkit-animation: tk-extras-fadeIn 0.5s linear;
+    -moz-animation: tk-extras-fadeIn 0.5s linear;
+    -o-animation: tk-extras-fadeIn 0.5s linear;
+    -ms-animation: tk-extras-fadeIn 0.5s linear;
+    animation: tk-extras-fadeIn 0.5s linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @-moz-keyframes tk-extras-fadeIn {
+    from {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    to {
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+    }
+  }
+  @-webkit-keyframes tk-extras-fadeIn {
+    from {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    to {
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+    }
+  }
+  @-o-keyframes tk-extras-fadeIn {
+    from {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    to {
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+    }
+  }
+  @keyframes tk-extras-fadeIn {
+    from {
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+      filter: alpha(opacity=0);
+    }
+    to {
+      opacity: 1;
+      -ms-filter: none;
+      filter: none;
+    }
+  }
