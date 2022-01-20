@@ -1,51 +1,126 @@
-
-/*渐变页面设置*/
-#recent-posts>.recent-post-item,.layout_page>div:first-child:not(.recent-posts),.layout_post>#page,.layout_post>#post,.read-mode .layout_post>#post {
-    background: var(--light_bg_color)
-}
-
-#aside-content .card-widget {
-    /*background: var(--light_bg_color)*/
-    background: var(--light_bg_color)
-} 
-
-
-
+/*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+#page-header,
 #web_bg {
-    /*background: linear-gradient(45deg,rgba(254,172,94,0.5),rgba(199,121,208,0.5),rgba(75,192,200,0.5))
-    *//* background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%) */
-    /*background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)*/
-    /*background: linear-gradient(-20deg, #e9defa3a 0%, #fbfcdb 100%)*/
-    background: linear-gradient(90deg,rgba(247,149,51,.1),rgba(243,112,85,.1) 15%,rgba(239,78,123,.1) 30%,rgba(161,102,171,.1) 44%,rgba(80,115,184,.1) 58%,rgba(16,152,173,.1) 72%,rgba(7,179,155,.1) 86%,rgba(109,186,130,.1))
-
+    -webkit-animation: imgblur 1s 1 ease-in-out;
+    animation: imgblur 1s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+/*适配使用-webkit内核的浏览器 */
+@-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
 }
 
-/* 文章页背景 */
-.layout>div:first-child:not(.recent-posts) {
-    background: var(--light_bg_color)
-    /*rgba(255,255,255,0.3);*/
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item{
+  background:rgba(255, 255, 255, 0.9);
+}
+/* 首页侧栏卡片 */
+.card-widget{
+background:rgba(255, 255, 255, 0.9)!important;
+}
+/* 文章页面正文背景 */
+div#post{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 分页页面 */
+div#page{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 归档页面 */
+div#archive{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 标签页面 */
+div#tag{
+background: rgba(255, 255, 255, 0.9);
+}
+/* 分类页面 */
+div#category{
+background: rgba(255, 255, 255, 0.9);
 }
 
-/*页脚渐变设置*/
-#footer {
-    background: rgba(255,255,255,.15);
-    color: #000;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    backdrop-filter: saturate(100%) blur(5px)
+/*夜间模式*/
+[data-theme="dark"]
+  #aside-content .card-widget{
+      background: rgba(0, 0, 0, 0.5)!important;
+    }
+[data-theme="dark"]
+  div#archive{
+      background: rgba(0, 0, 0, 0.5)!important;
+    }
+[data-theme="dark"]
+  div#page{
+      background: rgba(0, 0, 0, 0.5)!important;
+    }
+[data-theme="dark"]
+  #recent-posts > .recent-post-item{
+      background: rgba(0, 0, 0, 0.5)!important;
+    }
+[data-theme="dark"]
+  div#post{
+    background: rgba(0, 0, 0, 0.5)!important;
+    }
+
+/*阅读模式*/
+.read-mode #aside-content .card-widget{
+  background: rgba(158, 204, 171, 0.5)!important;
+}
+.read-mode div#post{
+background: rgba(158, 204, 171, 0.5)!important;
 }
 
-#footer::before {
-    background: rgba(255, 255, 255, .15)
-}
+/*夜间阅读模式*/
+[data-theme="dark"]
+  .read-mode #aside-content .card-widget{
+        background: rgba(0, 0, 0, 0.5)!important;
+        color: #ffffff;
+      }
+[data-theme="dark"]  
+  .read-mode div#post{
+      background: rgba(0, 0, 0, 0.5)!important;
+      color: #ffffff;
+      }
 
-#footer #footer-wrap {
-    color: var(--font-color)
+/* 页脚透明 */
+#footer{
+  background: transparent!important;
 }
+/* 页脚黑色透明玻璃效果移除 */
+#footer::before{
+    background: transparent!important;
+  }
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
+}
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.post-bg:before {
+  background-color: transparent!important;
+}
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"]
+  #footer::before{
+      background: transparent!important;
+    }
+[data-theme="dark"]
+  #page-header::before{
+    background: transparent!important;
+    }
 
-#footer #footer-wrap a {
-    color: var(--font-color)
-}
+
+
 
 /* 滚动条美化*/
 ::-webkit-scrollbar {
@@ -106,111 +181,6 @@
 #post .post-copyright__notice{
     font-size:15px;
 }
-/*end*/
-
-/* SAOUI字体精简包，仅73KB */
-@font-face{
-    font-family: 'SAOUI';
-    src: url('https://unpkg.zhimg.com/akilar-candyassets/fonts/SAOUI.ttf');
-    font-display: swap;
-  }
-  /* 应用于除了作者卡片以为的所有侧栏卡片 */
-  .card-widget:not(.card-info) {
-    overflow: visible !important;
-    margin-bottom: 45px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 0px !important;
-    font-family: 'SAOUI';
-    color: rgba(60,60,61,0.7);
-    font-weight: bold;
-  }
-  /* 修复一下对侧栏电子钟的覆盖 */
-  .card-widget.card-clock {
-    overflow: hidden !important;
-    border-radius: 8px !important;
-  }
-  /* 定义标题栏的定位方式为绝对定位 */
-  .item-headline {
-    font-family: 'SAOUI';
-    color: rgba(60,60,61,0.7);
-    font-weight: bold;
-    position: absolute;
-    z-index: 4;
-    height: 27px;
-    width: 65%;
-    top: -27px;
-    left: 7px;
-  }
-  /* 标题栏下各元素的层级，保证它们能显示在伪类之上 */
-  .item-headline i {
-    position: relative;
-    top: 0px;
-    margin-left: 5%;
-    z-index: 2;
-  }
-  .item-headline span {
-    position: relative;
-    top: 0px;
-    z-index: 2;
-  }
-  .item-headline a {
-    position: relative;
-    top: 0px;
-    z-index: 2;
-  }
-  /* 梯形伪类 */
-  .item-headline:after {
-    content: '';
-    position: absolute;
-    top: -3px;
-    right: 0;
-    bottom: 0;
-    left: -3px;
-    z-index: 1;
-    background: var(--light_bg_color);
-    border: 1px solid rgba(255,255,255,0.9);
-    border-bottom: 0 solid #fff;
-    /* 关键形变 */
-    transform: perspective(20px) rotateX(3deg);
-    border-top-right-radius: 5px !important;
-    border-top-left-radius: 5px !important;
-  }
-  /* 下划线伪类 */
-  .item-headline:before {
-    display: block;
-    width: 140%;
-    margin-top: 2px;
-    height: 2px;
-    content: '';
-    background: rgba(160,159,160,0.9);
-    border-radius: 5px;
-    top: 40px;
-    left: 0;
-    position: relative;
-  }
-  /* 针对手机样式的偏移量调整 */
-  @media screen and (max-width: 800px) {
-    .item-headline {
-      left: 8px;
-    }
-  }
-  /* 夜间模式色彩适配，此处仅代表糖果屋夜间模式配色 */
-  [data-theme="dark"] .card-widget:not(.card-info) {
-    color: rgba(255,255,255,0.7) !important;
-  }
-  [data-theme="dark"] .item-headline {
-    color: rgba(255,255,255,0.7) !important;
-  }
-  [data-theme="dark"] .item-headline:after {
-    background: var(--light_bg_color);
-    border: 1px solid rgba(0,0,0,0.5);
-    border-bottom: 0 solid rgba(0,0,0,0.5);
-  }
-  [data-theme="dark"] .item-headline:before {
-    background: var(--light_bg_color);
-  }
 
 /*github-badge*/
 .github-badge {
