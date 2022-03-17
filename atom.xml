@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Falling42のBlog</title>
+  <title>低熵体的博客</title>
   <icon>https://blog.falling42.top/icon.png</icon>
   <subtitle>藏好自己 做好清理</subtitle>
   <link href="https://blog.falling42.top/atom.xml" rel="self"/>
   
   <link href="https://blog.falling42.top/"/>
-  <updated>2022-01-20T13:47:34.697Z</updated>
+  <updated>2022-03-15T10:56:50.503Z</updated>
   <id>https://blog.falling42.top/</id>
   
   <author>
@@ -17,21 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>标签外挂 | 基于Volantis的扩展标签</title>
+    <link href="https://blog.falling42.top/posts/7490c8dc/"/>
+    <id>https://blog.falling42.top/posts/7490c8dc/</id>
+    <published>2022-01-22T03:55:21.000Z</published>
+    <updated>2022-03-15T10:56:50.503Z</updated>
+    
+    
+    <summary type="html">基于Hexo-Volantis的扩展标签</summary>
+    
+    
+    
+    <category term="🦋美化" scheme="https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
+    
+    
+    <category term="📁Hexo" scheme="https://blog.falling42.top/tags/%F0%9F%93%81Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>标签外挂 | Hexo-Butterfly主题的参考</title>
     <link href="https://blog.falling42.top/posts/43fcab53/"/>
     <id>https://blog.falling42.top/posts/43fcab53/</id>
     <published>2022-01-13T02:33:21.000Z</published>
-    <updated>2022-01-20T13:47:34.697Z</updated>
+    <updated>2022-03-15T09:06:24.311Z</updated>
     
     
     <summary type="html">Hexo-Butterfly 主题的标签外挂</summary>
     
     
     
-    <category term="hexo" scheme="https://blog.falling42.top/categories/hexo/"/>
+    <category term="🦋美化" scheme="https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="hexo" scheme="https://blog.falling42.top/tags/hexo/"/>
+    <category term="📁Hexo" scheme="https://blog.falling42.top/tags/%F0%9F%93%81Hexo/"/>
     
   </entry>
   
@@ -40,25 +59,17 @@
     <link href="https://blog.falling42.top/posts/b494bf9/"/>
     <id>https://blog.falling42.top/posts/b494bf9/</id>
     <published>2022-01-10T11:25:52.000Z</published>
-    <updated>2022-01-19T14:23:19.908Z</updated>
+    <updated>2022-03-17T08:33:07.431Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;PHP开启fileinfo扩展的方法&quot;&gt;&lt;a href=&quot;#PHP开启fileinfo扩展的方法&quot; class=&quot;headerlink&quot; title=&quot;PHP开启fileinfo扩展的方法&quot;&gt;&lt;/a&gt;PHP开启fileinfo扩展的方法&lt;/h1&gt;&lt;h2</summary>
-        
-      
+    <summary type="html">Linux下PHP开启fileinfo扩展的方法</summary>
     
     
     
-    <category term="学习笔记" scheme="https://blog.falling42.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="📖学习笔记" scheme="https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Linux" scheme="https://blog.falling42.top/tags/Linux/"/>
-    
-    <category term="PHP" scheme="https://blog.falling42.top/tags/PHP/"/>
+    <category term="🖥️Linux" scheme="https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
     
   </entry>
   
@@ -67,23 +78,17 @@
     <link href="https://blog.falling42.top/posts/4a1ffb66/"/>
     <id>https://blog.falling42.top/posts/4a1ffb66/</id>
     <published>2021-12-31T04:15:56.000Z</published>
-    <updated>2022-01-20T00:43:01.896Z</updated>
+    <updated>2022-03-16T13:43:43.680Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;SSH端口修改&quot;&gt;&lt;a href=&quot;#SSH端口修改&quot; class=&quot;headerlink&quot; title=&quot;SSH端口修改&quot;&gt;&lt;/a&gt;SSH端口修改&lt;/h2&gt;&lt;p&gt;为什么要修改ssh端口呢？因为总有一些人然闲着没事儿就去试有哪些 &lt;del&gt;傻子&lt;/del&gt;</summary>
-        
-      
+    <summary type="html">为什么要修改ssh端口呢？因为总有一些人闲着没事儿去试有哪些服务器开着默认ssh端口，暴力破解你的密码...</summary>
     
     
     
-    <category term="学习笔记" scheme="https://blog.falling42.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="📖学习笔记" scheme="https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="Linux" scheme="https://blog.falling42.top/tags/Linux/"/>
+    <category term="🖥️Linux" scheme="https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
     
   </entry>
   
@@ -92,19 +97,17 @@
     <link href="https://blog.falling42.top/posts/2e8a1bae/"/>
     <id>https://blog.falling42.top/posts/2e8a1bae/</id>
     <published>2021-12-17T13:00:02.000Z</published>
-    <updated>2022-01-19T14:23:04.726Z</updated>
+    <updated>2022-03-15T09:12:49.086Z</updated>
     
     
     <summary type="html">这是一篇测试文章</summary>
     
     
     
-    <category term="课程设计" scheme="https://blog.falling42.top/categories/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
+    <category term="📄课程设计" scheme="https://blog.falling42.top/categories/%F0%9F%93%84%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
     
     
-    <category term="数据库" scheme="https://blog.falling42.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="课程设计" scheme="https://blog.falling42.top/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
+    <category term="🧰数据库" scheme="https://blog.falling42.top/tags/%F0%9F%A7%B0%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
   </entry>
   
@@ -113,19 +116,17 @@
     <link href="https://blog.falling42.top/posts/4d48856c/"/>
     <id>https://blog.falling42.top/posts/4d48856c/</id>
     <published>2021-12-17T12:59:23.000Z</published>
-    <updated>2022-01-19T14:23:32.058Z</updated>
+    <updated>2022-03-15T09:09:54.069Z</updated>
     
     
     <summary type="html">这是一篇测试文章</summary>
     
     
     
-    <category term="课程设计" scheme="https://blog.falling42.top/categories/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
+    <category term="📄课程设计" scheme="https://blog.falling42.top/categories/%F0%9F%93%84%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
     
     
-    <category term="课程设计" scheme="https://blog.falling42.top/tags/%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="数据结构" scheme="https://blog.falling42.top/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="🧮数据结构" scheme="https://blog.falling42.top/tags/%F0%9F%A7%AE%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
   </entry>
   
