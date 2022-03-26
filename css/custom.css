@@ -32,11 +32,12 @@
   font-display: swap;
 }
 
-
-
-/* a#site-name {
-  font-family: fzqkbysjr;
-} */
+#article-container a {
+  color: rgb(243,135,123)!important;
+}
+a {
+  text-decoration:none!important; 
+}
 
 /* 媒体选择，屏幕过窄则隐藏结尾卡片，需要则取消注释 */
 @media screen and (max-width: 450px) {
