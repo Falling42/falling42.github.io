@@ -29,6 +29,15 @@
   </url>
   
   <url>
+    <loc>https://blog.falling42.top/posts/0/</loc>
+    
+    <lastmod>2022-03-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.falling42.top/posts/2e8a1bae/</loc>
     
     <lastmod>2022-03-29</lastmod>
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/artitalk/index.html</loc>
+    <loc>https://blog.falling42.top/categories/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/categories/index.html</loc>
+    <loc>https://blog.falling42.top/artitalk/index.html</loc>
     
     <lastmod>2022-03-29</lastmod>
     
