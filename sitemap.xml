@@ -29,25 +29,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/posts/2e8a1bae/</loc>
-    
-    <lastmod>2022-04-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.falling42.top/posts/7490c8dc/</loc>
-    
-    <lastmod>2022-04-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.falling42.top/posts/4d48856c/</loc>
     
     <lastmod>2022-04-01</lastmod>
     
@@ -83,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/fcircle/index.html</loc>
+    <loc>https://blog.falling42.top/charts/index.html</loc>
     
     <lastmod>2022-04-01</lastmod>
     
@@ -92,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/charts/index.html</loc>
+    <loc>https://blog.falling42.top/fcircle/index.html</loc>
     
     <lastmod>2022-04-01</lastmod>
     
@@ -141,20 +123,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.falling42.top/tags/%F0%9F%A7%B0%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.falling42.top/tags/%F0%9F%A7%AE%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -166,13 +134,6 @@
   
   <url>
     <loc>https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-04-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.falling42.top/categories/%F0%9F%93%84%E8%AF%BE%E7%A8%8B%E8%AE%BE%E8%AE%A1/</loc>
     <lastmod>2022-04-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
