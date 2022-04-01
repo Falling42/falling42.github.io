@@ -1,3 +1,6 @@
+https://blog.falling42.top/categories/index.html
+https://blog.falling42.top/charts/index.html
+https://blog.falling42.top/fcircle/index.html
 https://blog.falling42.top/link/index.html
 https://blog.falling42.top/tags/index.html
 https://blog.falling42.top/posts/43fcab53/
@@ -6,9 +9,6 @@ https://blog.falling42.top/posts/b494bf9/
 https://blog.falling42.top/posts/7490c8dc/
 https://blog.falling42.top/about/index.html
 https://blog.falling42.top/artitalk/index.html
-https://blog.falling42.top/categories/index.html
-https://blog.falling42.top/charts/index.html
-https://blog.falling42.top/fcircle/index.html
 https://blog.falling42.top/
 https://blog.falling42.top/tags/%F0%9F%93%81Hexo/
 https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/
