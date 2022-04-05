@@ -1,5 +1,3 @@
-navigator.serviceWorker.register('/sw.js')
-
 const CACHE_NAME = 'ICDNCache';
 let cachelist = [];
 self.addEventListener('install', async function (installEvent) {
@@ -59,14 +57,8 @@ let cdn = {
         jsdelivr: {
             "url": "https://cdn.jsdelivr.net/npm"
         },
-        zhimg: {
-            "url": "https://unpkg.zhimg.com"
-        },
         unpkg: {
             "url": "https://unpkg.com"
-        },
-        bdstatic: {
-            "url": "https://code.bdstatic.com/npm"
         },
         falling42: {
             "url": "https://jsd.42pic.top/npm"
