@@ -73,7 +73,7 @@ let cdn = {
             "url": "https://jsdelivr.42pic.top/npm"
         },
         unpkg_ucdn: {
-            "url": "https://npm.42pic.top/"
+            "url": "https://npm.42pic.top"
         }
     }
 }
