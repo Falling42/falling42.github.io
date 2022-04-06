@@ -32,8 +32,11 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/gh"
         },
-        falling42: {
+        jsdelivr_io: {
             "url": "https://jsd.42pic.top/gh"
+        },
+        jsdelivr_ucdn: {
+            "url": "https://jsdelivr.42pic.top/gh"
         }
     },
     "combine": {
@@ -46,12 +49,15 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/combine"
         },
-        falling42: {
+        jsdelivr_io: {
             "url": "https://jsd.42pic.top/combine"
+        },
+        jsdelivr_ucdn: {
+            "url": "https://jsdelivr.42pic.top/gh"
         }
     },
     "npm": {
-        eleme: {
+        unpkg_eleme: {
             "url": "https://npm.elemecdn.com"
         },
         jsdelivr: {
@@ -60,10 +66,15 @@ let cdn = {
         unpkg: {
             "url": "https://unpkg.com"
         },
-        falling42: {
+        jsdelivr_io: {
             "url": "https://jsd.42pic.top/npm"
+        },
+        jsdelivr_ucdn: {
+            "url": "https://jsdelivr.42pic.top/npm"
+        },
+        unpkg_ucdn: {
+            "url": "https://npm.42pic.top/"
         }
-
     }
 }
 const handle = async function (req) {
