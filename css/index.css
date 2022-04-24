@@ -1450,7 +1450,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: ceymw03;
+  font-family: consola,ceymw03;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1476,7 +1476,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://npm.elemecdn.com/crazy-image-cyfan-host@0.0.0-e3a8df8f1efa7b424b0a5f5b78f30d6f5b483f76c1c16ee333673164a2618617);
+  background: url(https://npm.elemecdn.com/crazy-image-cyfan-host@0.0.0-e6d6da25c186356aee47f098d3ceb7a41b6f38c093ab8f29a798f9a390548473);
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;

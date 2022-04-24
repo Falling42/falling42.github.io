@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo白嫖记录</title>
+      <link href="/p/9f710a5d.html"/>
+      <url>/p/9f710a5d.html</url>
+      
+        <content type="html"><![CDATA[<div class="tip warning faa-horizontal animated-hover"><p>本篇非基础安装教程，由于此类教程过多，请自行百度安装教程，不做整理。</p></div><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><div class="table-container"><table><thead><tr><th>环境</th><th>链接</th></tr></thead><tbody><tr><td>Git</td><td><a href="https://alist.falling42.top/Share/Git-2.35.3-64-bit.exe">https://alist.falling42.top/Share/Git-2.35.3-64-bit.exe</a></td></tr><tr><td>Node.js</td><td><a href="https://alist.falling42.top/Share/node-v16.14.2-x64.msi">https://alist.falling42.top/Share/node-v16.14.2-x64.msi</a></td></tr><tr><td>Typora(好用的markdown编辑器)*[1]</td><td><a href="https://alist.falling42.top/Share/Crack/Typora%201.1.5.7z">https://alist.falling42.top/Share/Crack/Typora%201.1.5.7z</a></td></tr><tr><td>VSCode（这就不必说了吧）</td><td><a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></td></tr></tbody></table></div><p>以上软件安装教程请自行百度获取。另外还请仔细阅读<a href="https://hexo.io/zh-cn/docs/">hexo官方文档</a></p><p>*[1]:该软件仅供学习测试使用，不得用于商业用途，请于下载后24小时之内删除！如果有条件请支持正版！</p><h2 id="白嫖Github"><a href="#白嫖Github" class="headerlink" title="白嫖Github"></a>白嫖Github</h2><p>如果你准备好了环境，那么接下来就要做一个合格的白嫖人了。<br>首先你需要有一个<a href="https://github.com/">Github</a>,没有的话去注册一个。什么，你进不去？那就需要<psw>科学上网</psw>这样一种魔法了。</p><p>你应该已经完成了这一步的一部分（白嫖Github pages)。<br>由于hexo静态博客每次更新都很麻烦，所以我们要用用GitHub Actions简化这一步</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 折腾之路 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 📁Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签外挂 | 基于Volantis的扩展标签</title>
       <link href="/p/7490c8dc.html"/>
       <url>/p/7490c8dc.html</url>

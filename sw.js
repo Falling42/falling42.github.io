@@ -35,8 +35,8 @@ let cdn = {
         jsdelivr_io: {
             "url": "https://jsd.42pic.top/gh"
         },
-        jsdelivr_ucdn: {
-            "url": "https://jsdelivr.42pic.top/gh"
+        jsdelivr_dogecloud: {
+            "url": "https://cdn.42pic.top/gh"
         }
     },
     "combine": {
@@ -52,8 +52,8 @@ let cdn = {
         jsdelivr_io: {
             "url": "https://jsd.42pic.top/combine"
         },
-        jsdelivr_ucdn: {
-            "url": "https://jsdelivr.42pic.top/gh"
+        jsdelivr_dogecloud: {
+            "url": "https://cdn.42pic.top/gh"
         }
     },
     "npm": {
@@ -69,12 +69,9 @@ let cdn = {
         jsdelivr_io: {
             "url": "https://jsd.42pic.top/npm"
         },
-        jsdelivr_ucdn: {
-            "url": "https://jsdelivr.42pic.top/npm"
+        jsdelivr_dogecloud: {
+            "url": "https://cdn.42pic.top/npm"
         },
-        unpkg_ucdn: {
-            "url": "https://npm.42pic.top"
-        }
     }
 }
 const handle = async function (req) {
