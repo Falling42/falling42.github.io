@@ -32,8 +32,8 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/gh"
         },
-        jsdelivr_io: {
-            "url": "https://jsd.42pic.top/gh"
+        jsdelivr_doge: {
+            "url": "https://dogecdn.42pic.top/gh"
         }
     },
     "combine": {
@@ -46,8 +46,8 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/combine"
         },
-        jsdelivr_io: {
-            "url": "https://jsd.42pic.top/combine"
+        jsdelivr_doge: {
+            "url": "https://dogecdn.42pic.top/combine"
         }
     },
     "npm": {
@@ -60,8 +60,8 @@ let cdn = {
         unpkg: {
             "url": "https://unpkg.com"
         },
-        jsdelivr_io: {
-            "url": "https://jsd.42pic.top/npm"
+        jsdelivr_doge: {
+            "url": "https://dogecdn.42pic.top/npm"
         }
     }
 }
