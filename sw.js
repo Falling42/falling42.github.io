@@ -60,6 +60,9 @@ let cdn = {
         unpkg: {
             "url": "https://unpkg.com"
         },
+        unpkg_zhimg: {
+            "url": "https://unpkg.zhimg.com"
+        },
         jsdelivr_doge: {
             "url": "https://dogecdn.42pic.top/npm"
         }
