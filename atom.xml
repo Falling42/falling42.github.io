@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>低熵体的博客</title>
-  <icon>https://falling42.top/icon.png</icon>
+  <icon>https://blog.falling42.top/icon.png</icon>
   <subtitle>藏好自己 做好清理</subtitle>
-  <link href="https://falling42.top/atom.xml" rel="self"/>
+  <link href="https://blog.falling42.top/atom.xml" rel="self"/>
   
-  <link href="https://falling42.top/"/>
-  <updated>2022-05-21T14:25:29.276Z</updated>
-  <id>https://falling42.top/</id>
+  <link href="https://blog.falling42.top/"/>
+  <updated>2022-05-21T14:36:18.141Z</updated>
+  <id>https://blog.falling42.top/</id>
   
   <author>
     <name>Falling_低熵体</name>
@@ -18,96 +18,96 @@
   
   <entry>
     <title>hexo白嫖记录</title>
-    <link href="https://falling42.top/p/9f710a5d.html"/>
-    <id>https://falling42.top/p/9f710a5d.html</id>
+    <link href="https://blog.falling42.top/p/9f710a5d.html"/>
+    <id>https://blog.falling42.top/p/9f710a5d.html</id>
     <published>2022-04-20T20:14:37.000Z</published>
-    <updated>2022-05-21T14:25:29.276Z</updated>
+    <updated>2022-05-21T14:36:18.141Z</updated>
     
     
     <summary type="html">本篇非基础安装教程，由于此类教程过多，请自行百度部署教程，不做整理，仅记录本博客折腾历史</summary>
     
     
     
-    <category term="折腾之路" scheme="https://falling42.top/categories/%E6%8A%98%E8%85%BE%E4%B9%8B%E8%B7%AF/"/>
+    <category term="折腾之路" scheme="https://blog.falling42.top/categories/%E6%8A%98%E8%85%BE%E4%B9%8B%E8%B7%AF/"/>
     
     
-    <category term="📁Hexo" scheme="https://falling42.top/tags/%F0%9F%93%81Hexo/"/>
+    <category term="📁Hexo" scheme="https://blog.falling42.top/tags/%F0%9F%93%81Hexo/"/>
     
   </entry>
   
   <entry>
     <title>标签外挂 | 基于Volantis的扩展标签</title>
-    <link href="https://falling42.top/p/7490c8dc.html"/>
-    <id>https://falling42.top/p/7490c8dc.html</id>
+    <link href="https://blog.falling42.top/p/7490c8dc.html"/>
+    <id>https://blog.falling42.top/p/7490c8dc.html</id>
     <published>2022-01-22T11:55:21.000Z</published>
-    <updated>2022-05-21T14:25:29.276Z</updated>
+    <updated>2022-05-21T14:36:18.141Z</updated>
     
     
     <summary type="html">基于Hexo-Volantis的扩展标签</summary>
     
     
     
-    <category term="🦋美化" scheme="https://falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
+    <category term="🦋美化" scheme="https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="📁Hexo" scheme="https://falling42.top/tags/%F0%9F%93%81Hexo/"/>
+    <category term="📁Hexo" scheme="https://blog.falling42.top/tags/%F0%9F%93%81Hexo/"/>
     
   </entry>
   
   <entry>
     <title>标签外挂 | Hexo-Butterfly主题的参考</title>
-    <link href="https://falling42.top/p/43fcab53.html"/>
-    <id>https://falling42.top/p/43fcab53.html</id>
+    <link href="https://blog.falling42.top/p/43fcab53.html"/>
+    <id>https://blog.falling42.top/p/43fcab53.html</id>
     <published>2022-01-13T10:33:21.000Z</published>
-    <updated>2022-05-21T14:25:29.276Z</updated>
+    <updated>2022-05-21T14:36:18.141Z</updated>
     
     
     <summary type="html">Hexo-Butterfly 主题的标签外挂</summary>
     
     
     
-    <category term="🦋美化" scheme="https://falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
+    <category term="🦋美化" scheme="https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="📁Hexo" scheme="https://falling42.top/tags/%F0%9F%93%81Hexo/"/>
+    <category term="📁Hexo" scheme="https://blog.falling42.top/tags/%F0%9F%93%81Hexo/"/>
     
   </entry>
   
   <entry>
     <title>PHP开启fileinfo扩展的方法</title>
-    <link href="https://falling42.top/p/b494bf9.html"/>
-    <id>https://falling42.top/p/b494bf9.html</id>
+    <link href="https://blog.falling42.top/p/b494bf9.html"/>
+    <id>https://blog.falling42.top/p/b494bf9.html</id>
     <published>2022-01-10T19:25:52.000Z</published>
-    <updated>2022-05-21T14:25:29.276Z</updated>
+    <updated>2022-05-21T14:36:18.141Z</updated>
     
     
     <summary type="html">Linux下PHP开启fileinfo扩展的方法</summary>
     
     
     
-    <category term="📖学习笔记" scheme="https://falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="📖学习笔记" scheme="https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="🖥️Linux" scheme="https://falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
+    <category term="🖥️Linux" scheme="https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
     
   </entry>
   
   <entry>
     <title>Linux服务器 SSH端口修改、禁用root账户远程登录</title>
-    <link href="https://falling42.top/p/4a1ffb66.html"/>
-    <id>https://falling42.top/p/4a1ffb66.html</id>
+    <link href="https://blog.falling42.top/p/4a1ffb66.html"/>
+    <id>https://blog.falling42.top/p/4a1ffb66.html</id>
     <published>2021-12-31T12:15:56.000Z</published>
-    <updated>2022-05-21T14:25:29.276Z</updated>
+    <updated>2022-05-21T14:36:18.141Z</updated>
     
     
     <summary type="html">为什么要修改ssh端口呢？因为总有一些人闲着没事儿去试有哪些服务器开着默认ssh端口，暴力破解你的密码...</summary>
     
     
     
-    <category term="📖学习笔记" scheme="https://falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="📖学习笔记" scheme="https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="🖥️Linux" scheme="https://falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
+    <category term="🖥️Linux" scheme="https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/"/>
     
   </entry>
   
