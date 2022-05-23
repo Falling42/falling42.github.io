@@ -69,6 +69,44 @@ let cdn = {
         unpkg_doge: {
             "url": "https://unpkg.dogecdn.42pic.top"
         }
+    },
+    "sinaimg": {
+        tva1: {
+            "url": "https://tva1.sinaimg.cn"
+        },
+        tva2: {
+            "url": "https://tva2.sinaimg.cn"
+        },
+        tva3: {
+            "url": "https://tva3.sinaimg.cn"
+        },
+        tva4: {
+            "url": "https://tva4.sinaimg.cn"
+        },
+        tvax1: {
+            "url": "https://tvax1.sinaimg.cn"
+        },
+        tvax2: {
+            "url": "https://tvax2.sinaimg.cn"
+        },
+        tvax3: {
+            "url": "https://tvax3.sinaimg.cn"
+        },
+        tvax4: {
+            "url": "https://tvax4.sinaimg.cn"
+        },
+        wx1: {
+            "url": "https://wx1.sinaimg.cn"
+        },
+        wx2: {
+            "url": "https://wx2.sinaimg.cn"
+        },
+        wx3: {
+            "url": "https://wx3.sinaimg.cn"
+        },
+        wx4: {
+            "url": "https://wx4.sinaimg.cn"
+        }
     }
 }
 const handle = async function (req) {
