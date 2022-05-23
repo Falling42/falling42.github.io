@@ -2,16 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.falling42.top/p/83dcefb7.html</loc>
-    
-    <lastmod>2022-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.falling42.top/p/1ad5be0d.html</loc>
+    <loc>https://blog.falling42.top/p/4a1ffb66.html</loc>
     
     <lastmod>2022-05-23</lastmod>
     
@@ -21,15 +12,6 @@
   
   <url>
     <loc>https://blog.falling42.top/p/43fcab53.html</loc>
-    
-    <lastmod>2022-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.falling42.top/p/4a1ffb66.html</loc>
     
     <lastmod>2022-05-23</lastmod>
     
@@ -56,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/p/cdc52fe.html</loc>
+    <loc>https://blog.falling42.top/p/7490c8dc.html</loc>
     
     <lastmod>2022-05-23</lastmod>
     
@@ -65,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/p/7490c8dc.html</loc>
+    <loc>https://blog.falling42.top/about/index.html</loc>
     
     <lastmod>2022-05-23</lastmod>
     
@@ -127,15 +109,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.falling42.top/about/index.html</loc>
-    
-    <lastmod>2022-05-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.falling42.top/</loc>
@@ -146,14 +119,14 @@
 
   
   <url>
-    <loc>https://blog.falling42.top/tags/%F0%9F%93%81Hexo/</loc>
+    <loc>https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/</loc>
     <lastmod>2022-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/tags/%F0%9F%96%A5%EF%B8%8FLinux/</loc>
+    <loc>https://blog.falling42.top/tags/%F0%9F%93%81Hexo/</loc>
     <lastmod>2022-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -162,14 +135,14 @@
 
   
   <url>
-    <loc>https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/</loc>
+    <loc>https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.falling42.top/categories/%F0%9F%93%96%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://blog.falling42.top/categories/%F0%9F%A6%8B%E7%BE%8E%E5%8C%96/</loc>
     <lastmod>2022-05-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
