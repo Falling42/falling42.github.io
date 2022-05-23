@@ -65,6 +65,9 @@ let cdn = {
         },
         jsdelivr_doge: {
             "url": "https://dogecdn.42pic.top/npm"
+        },
+        unpkg_doge: {
+            "url": "https://unpkg.dogecdn.42pic.top"
         }
     }
 }
