@@ -32,6 +32,12 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/gh"
         },
+        jsdelivr_test1: {
+            "url": "https://test1.jsdelivr.net/gh"
+        },
+        jsdelivr_testingcf: {
+            "url": "https://testingcf.jsdelivr.net/gh"
+        },
         jsdelivr_doge: {
             "url": "https://dogecdn.42pic.top/gh"
         }
@@ -46,6 +52,12 @@ let cdn = {
         jsdelivr_gcore: {
             "url": "https://gcore.jsdelivr.net/combine"
         },
+        jsdelivr_test1: {
+            "url": "https://test1.jsdelivr.net/combine"
+        },
+        jsdelivr_testingcf: {
+            "url": "https://testingcf.jsdelivr.net/combine"
+        },
         jsdelivr_doge: {
             "url": "https://dogecdn.42pic.top/combine"
         }
@@ -56,6 +68,18 @@ let cdn = {
         },
         jsdelivr: {
             "url": "https://cdn.jsdelivr.net/npm"
+        },
+        jsdelivr_fastly: {
+            "url": "https://fastly.jsdelivr.net/npm"
+        },
+        jsdelivr_gcore: {
+            "url": "https://gcore.jsdelivr.net/npm"
+        },
+        jsdelivr_test1: {
+            "url": "https://test1.jsdelivr.net/npm"
+        },
+        jsdelivr_testingcf: {
+            "url": "https://testingcf.jsdelivr.net/npm"
         },
         unpkg: {
             "url": "https://unpkg.com"
