@@ -44,7 +44,15 @@ a {
     display: none!important;
   }
 }
+@media screen and (min-width: 768px){
+  h1#site-title {
+    font-size: 4em!important;
+  }
+}
 
+#post-info .post-title {
+  font-size: 3.5em!important;
+}
 /* 修改图片圆角 */
 img[src*="#img-radius"] {
   border-radius: 9px;
